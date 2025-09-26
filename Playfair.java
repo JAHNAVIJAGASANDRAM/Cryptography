@@ -10,6 +10,7 @@ public class Playfair {
         String str = sc.nextLine();
         String prepared = prepareText(str);
         System.out.println("Encrypted: " + encrypt(prepared));
+        sc.close();
     }
 
     static void generateMatrix(String key) {
